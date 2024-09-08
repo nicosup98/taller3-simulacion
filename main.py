@@ -39,7 +39,7 @@ def simulacion(n_simulacion = 1000 * 500):
     
 
 if __name__ == "__main__":
-    probabilidad, data,n_is_far,n_simulacion = simulacion(100000)
+    probabilidad, data,n_is_far,n_simulacion = simulacion(1000000)
     print(f"Probabilidad de que el ebrio esté a 2 calles de su inicio: {probabilidad}%") 
     print("mas info".center(20,"-"))
     print(f"numero de simulaciones: {n_simulacion}")
